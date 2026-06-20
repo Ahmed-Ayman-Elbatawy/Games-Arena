@@ -1,0 +1,62 @@
+@media screen and (max-width: 640px) {
+  .mycontainer {
+    max-width: 98%;
+  }
+
+  body {
+    padding-top: 0px;
+  }
+
+  .hero-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .image-wrapper {
+    height: 220px;
+    width: 88%;
+  }
+
+  .sticker {
+    padding: 0.75rem 1rem;
+    bottom: -15px;
+    left: -10px;
+  }
+  .item {
+    width: 100%;
+  }
+  .mobile-btn {
+    width: 100%;
+  }
+
+  .image-size {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 996px) {
+  .mycontainer {
+    max-width: 90%;
+  }
+
+  body {
+    padding-top: 0px;
+  }
+
+  .image-wrapper {
+    height: 400px;
+    width: 65%;
+  }
+  .mobile-btn {
+    width: 100%;
+  }
+  .item {
+    width: 100%;
+  }
+  .image-size {
+    height: 100%;
+    width: 100%;
+  }
+}
